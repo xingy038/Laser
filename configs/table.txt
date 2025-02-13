@@ -1,0 +1,40 @@
+expname = table
+
+dataset_name = llff
+datadir = data/table
+ckpt = log/table/table.th
+feature_dir = clip_features/table
+basedir = log_seg
+
+has_segmentation_maps = 1
+# test_prompt = 0
+
+ray_downsample_train = 8
+patch_downsample_train = 5
+ndc_ray = 1
+
+self_feature_weight = 1
+relevancy_weight = 0.8
+aug_loss_weight = 1
+
+embed_dim = 48
+
+temperature = 0.2
+
+n_iters = 15000
+joint_start_iter = 5000
+patch_num = 16
+patch_size = 192
+batch_size = 4096
+chunk_size = 4096
+
+N_voxel_init = 2097156 # 128**3
+N_voxel_final = 262144000 # 640**3
+upsamp_list = [2000,3000,4000,5500]
+update_AlphaMask_list = [2500]
+
+n_lamb_sigma = [16,4,4]
+n_lamb_sh = [48,12,12]
+
+fea2denseAct = relu
+
