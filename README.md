@@ -1,4 +1,4 @@
-# [*T-pami 2025*] Laser: Efficient Language-Guided Segmentation in Neural Radiance Fields
+# [*T-PAMI 2025*] Laser: Efficient Language-Guided Segmentation in Neural Radiance Fields
 
 This repository is offical implementation for the paper: [Laser: Efficient Language-Guided Segmentation in Neural Radiance Fields](https://arxiv.org/abs/2501.19084).
 
